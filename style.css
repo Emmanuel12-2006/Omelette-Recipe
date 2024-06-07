@@ -1,0 +1,643 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young+Serif', 'Outfit', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    background-color: hsl(30, 54%, 90%);
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    gap: 30px;
+}
+
+section img{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.about{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.about h1{
+    font-size: 30px;
+}
+
+.about b{
+    font-size: 16px;
+    color:  hsl(30, 10%, 34%);
+}
+
+.stg-2{
+    width: 90%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 15px;
+}
+
+.stg-2 h1{
+    font-size: 20px;
+    font-weight: 700px;
+    color: hsl(332, 51%, 32%);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.stg-2 span{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 30px;
+    
+}
+
+.stg-2 b{
+    color: hsl(332, 51%, 32%);
+}
+
+.stg-2 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.stg-2 div h2{
+    font-size: 16px;
+    font-weight: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+.stg-2 div small{
+    font-size: 16px;
+    font-weight: 400;
+    color:  hsl(30, 10%, 34%);
+}
+
+.stg-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 80px;
+    gap: 15px;
+}
+
+.stg-3 h1{
+    color: hsl(14, 45%, 36%);
+}
+
+.stg-3 span{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.stg-3 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.stg-3 b{
+    font-style: 'outfit';
+    color: hsl(14, 45%, 36%);
+}
+
+.stg-3 h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+.stg-4{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-top: 1px solid hsl(30, 18%, 87%);
+    /* border-bottom: 1px solid hsl(30, 18%, 87%); */
+    
+}
+
+.stg-4 h1{
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+.stg-4 span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.stg-4 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.stg-4 div b{
+    color: hsl(14, 45%, 36%);
+}
+
+.stg-4 h2{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.stg-4 div small{
+    color:hsl(30, 10%, 34%) ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.stg-4 p{
+    width: 100%;
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+.stg-5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 25px;
+}
+
+.stg-5 h1{
+    color: hsl(14, 45%, 36%);
+
+}
+
+.stg-5 span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stg-5 span h2{
+    font-size: 16px; 
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.calories{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.calories h2{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(30, 10%, 34%);
+}
+
+.calories b{
+    margin-left: 145px;
+    color: hsl(14, 45%, 36%);
+}
+
+.carbs{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.carbs h2{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(30, 10%, 34%);
+}
+
+.carbs b{
+    margin-left: 165px;
+    color: hsl(14, 45%, 36%);
+}
+
+.protein{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.protein h2{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(30, 10%, 34%);
+}
+
+.protein b{
+    margin-left: 150px;
+    color: hsl(14, 45%, 36%);
+}
+
+.fat{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.fat h2{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(30, 10%, 34%);
+}
+
+.fat b{
+    margin-left: 180px;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile design */
+@media(max-width:450px){
+
+    body{
+        width: 100%;
+        background-color: hsl(30, 54%, 90%);
+    }
+    
+    main{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    section{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%);
+        gap: 30px;
+    }
+    
+    section img{
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+    
+    .about{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    
+    .about h1{
+        font-size: 30px;
+    }
+    
+    .about p{
+        font-size: 16px;
+        color:  hsl(30, 10%, 34%);
+    }
+    
+    .stg-2{
+        width: 90%;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: hsl(30, 54%, 90%);
+        border-radius: 15px;
+    }
+    
+    .stg-2 h1{
+        font-size: 20px;
+        font-weight: 700px;
+        color: hsl(332, 51%, 32%);
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .stg-2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        margin-left: 30px;
+        
+    }
+    
+    .stg-2 b{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .stg-2 div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .stg-2 div h2{
+        font-size: 16px;
+        font-weight: 20px;
+        color: hsl(24, 5%, 18%);
+    }
+    
+    .stg-2 div small{
+        font-size: 16px;
+        font-weight: 400;
+        color:  hsl(30, 10%, 34%);
+    }
+    
+    .stg-3{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 30px;
+        gap: 15px;
+    }
+    
+    .stg-3 h1{
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .stg-3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .stg-3 div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    
+    .stg-3 b{
+        font-style: 'outfit';
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .stg-3 h3{
+        font-weight: 400;
+        font-size: 16px;
+        color: hsl(24, 5%, 18%);
+    }
+    
+    .stg-4{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-top: 1px solid hsl(30, 18%, 87%);
+        /* border-bottom: 1px solid hsl(30, 18%, 87%); */
+        
+    }
+    
+    .stg-4 h1{
+        color: hsl(14, 45%, 36%);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .stg-4 span{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 20px;
+    }
+    
+    .stg-4 div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .stg-4 div b{
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .stg-4 h2{
+        font-size: 16px;
+        color: hsl(30, 10%, 34%);
+    
+    }
+    
+    .stg-4 div small{
+        color:hsl(30, 10%, 34%) ;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .stg-4 p{
+        width: 100%;
+        border: 1px solid hsl(30, 18%, 87%);
+    }
+    
+    .stg-5{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        gap: 25px;
+    }
+    
+    .stg-5 h1{
+        color: hsl(14, 45%, 36%);
+    
+    }
+    
+    .stg-5 span{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .stg-5 span h2{
+        font-size: 16px; 
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .calories{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        border-bottom: 2px solid hsl(30, 18%, 87%);
+    }
+    
+    .calories h2{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 800;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .calories b{
+        margin-left: 10px;
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .carbs{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        border-bottom: 2px solid hsl(30, 18%, 87%);
+    }
+    
+    .carbs h2{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 800;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .carbs b{
+        margin-left: 30px;
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .protein{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        border-bottom: 2px solid hsl(30, 18%, 87%);
+    }
+    
+    .protein h2{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 800;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .protein b{
+        margin-left: 20px;
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .fat{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        gap: 50px;
+    }
+    
+    .fat h2{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 800;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .fat b{
+        margin-left: 50px;
+        color: hsl(14, 45%, 36%);
+    }
+
+}
